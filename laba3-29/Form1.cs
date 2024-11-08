@@ -16,5 +16,17 @@ namespace laba3_29
         {
             InitializeComponent();
         }
+
+        private void одномірніМасивиToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form2 oneDimForm = new Form2();
+            oneDimForm.Show();
+        }
+
+        private void двовимірніМасивиToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form3 twoDimForm = new Form3();
+            twoDimForm.Show();
+        }
     }
 }
